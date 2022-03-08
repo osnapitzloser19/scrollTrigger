@@ -1,0 +1,48 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.wrapper{
+  width: 90%;
+  margin: auto;
+}
+.hero{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 100vh;
+}
+h1{
+  font: 600 80px sans-serif;
+  color: #2c3e50;
+}
+.viewport{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: start;
+  overflow: hidden;
+  margin-top: 300px;
+}
+.img{
+  width: 100%;
+  position: relative;
+  /* scale: 1.0;
+  transition: 0.4s ease-in-out; */
+}
+.opposite{
+  float: right;
+  margin-bottom: 800px;
+}
+/* .scale{
+  scale: 1.1;
+  transition: 0.4s ease-in-out;
+} */
